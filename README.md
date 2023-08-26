@@ -1,1 +1,1 @@
-# KinematicEq
+# Kinematic Equation Solver
