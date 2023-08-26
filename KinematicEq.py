@@ -1,7 +1,6 @@
 import math
-g = -9.8
 
-print ("Kinematic Eq 1.1")
+print ("Kinematic Eq 1.2")
 
 print ("Displacement = dx, Velocity inital = Vo, Velocity final  = Vf, Acceleration = A, Gravity = G, Time = T")
 Dx, Vo, Vf, Ac, Ti = input(). split()
