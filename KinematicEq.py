@@ -1,6 +1,6 @@
 import math
 
-print ("Kinematic Eq 1.2")
+print ("Kinematic Eq 1.3")
 
 print ("Displacement = dx, Velocity inital = Vo, Velocity final  = Vf, Acceleration = A, Gravity = G, Time = T")
 Dx, Vo, Vf, Ac, Ti = input(). split()
@@ -19,7 +19,8 @@ if Vf != ("x"):
 if Ac == ("G"):
     Ac1 = -9.8
 else:
-    Ac1 = float(Ac)
+    if Ac != ("x"):
+        Ac1 = float(Ac)
 if Ti != ("x"):
     Ti1 = float(Ti)
 
@@ -37,6 +38,8 @@ try:
     print (Vfp)
 except NameError:
     print ("2nd form error")
+except ValueError:
+    print ("2nd form error")
 
 try:
     Vop = Vf1 - Ac1 * Ti1
@@ -44,3 +47,17 @@ try:
     print (Vop)
 except NameError:
     print ("3rd form error")
+
+try:
+    Acp = (Vf1 - Vo1) / Ti1
+    print ("Ac =")
+    print (Acp)
+except NameError:
+    print ("4th form error")
+
+try:
+    Tip = (Vf1 - Vo1) / Ac1
+    print ("Ti =")
+    print (Tip)
+except NameError:
+    print ("5th form error")
