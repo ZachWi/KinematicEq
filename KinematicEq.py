@@ -61,3 +61,10 @@ try:
     print (Tip)
 except NameError:
     print ("5th form error")
+
+try: 
+    Vfp2 = Vo1 + (Ac1 * Ti1)
+    print ("Vf w/out dx=")
+    print (Vfp2)
+except NameError:
+    print ("6th form error")
