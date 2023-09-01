@@ -5,13 +5,13 @@ import math
 
 print ("Kinematic Eq 2.0")
 
-## I don't like how long these print functions are, but they do the job 
+## These are long, but they work, subject to change
 
 print ("Displacement = Dx, Velocity inital = Vo, Velocity final  = Vf, Acceleration = Ac, Time = Ti")
 print ("Then, represent what you're looking for")
 
-## Splits the inputs, but I have how this works
-## May be subject to change
+## Splits the inputs
+## Subject to change
 
 Dx, Vo, Vf, Ac, Ti, Eq = input().split()
 print ("Entered Displacement: ", Dx)
@@ -43,8 +43,7 @@ if Ti != ("x"):
 if Eq != ("Dx") or ("Vf") or ("Vo") or ("Ac") or ("Ti"):
     print("Equation error")
 
-## Actual equations, the only part that actually does math LOL
-## Also put in try functions because it would return an error if given X
+## Actual equations
 
 if Eq == ("Dx"):
     try:
