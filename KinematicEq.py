@@ -1,7 +1,7 @@
 import math
 
 ## WELCOME TO MY CODE
-## If you're here for the kinematic equations, thanks alot!
+## If you're here for the kinematic equations, thanks a lot!
 
 print ("Kinematic Eq 2.0")
 
